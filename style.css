@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border: solid 3px blue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
