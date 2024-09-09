@@ -5,7 +5,7 @@ window.onload = () => {
         .innerHTML = állatok
         .sort()
         .map((állat, i) => `
-            <div class="a a${i % 3}">${állat}</div>
+            <div draggable="true" class="a a${i % 3}">${állat}</div>
         `)
         .join('')
 }
