@@ -1,8 +1,11 @@
-állatok = ['Cica', 'Kutya', 'Malac', 'Krokodil', 'Zsiráf']
+állatok = ['Cica', 'Kutya', 'Malac', 'Krokodil', 'Zsiráf','Aligátor','Pelikán','Majom','Fecske','Gólya','Béka','Liba','Kacsa']
 window.onload = () => {
-    document.querySelectorAll('body')[0]
+    document
+        .querySelector('body')
         .innerHTML = állatok
-        .map(állat => `
-            <div>${állat}</div>
-        `).join('')
+        .sort()
+        .map((állat, i) => `
+            <div class="a a${i % 3}">${állat}</div>
+        `)
+        .join('')
 }
