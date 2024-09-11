@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+div {
+    background-color: #ffff00;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px gray;
+    text-align: center;
+}
+input[type=text] {
+    width: 300px;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 1px 1px 3px gray;
+    color: rgb(23, 65, 23);
+}
+div.x0 {
+    background-color: aqua;
+    padding: 10px;
+}
+div.x1 {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+span {
+    display: inline-block;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+    padding: 3px;
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+span.y {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(223, 224, 178);
+}
+span.y1 {
+    color: rgb(225, 208, 208);
+    text-decoration: line-through;
+}
+span.g {
+    width: 40px;
+}
+span.g2 {
+    background-color: rgb(223, 132, 132);
+}
+span.g:hover {
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
